@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar div{
+    float: left;
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+ul a{
+    margin-left: 10px;
+}
+ul{
+    margin-left: 70%;
+    margin-top: 5px;
+}
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid white;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: yellow;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #777;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #0077b5; /* Change color on hover */
+}
+
+/* -------------------Resume Page---------------------------*/
+/* Basic reset */
