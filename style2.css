@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar div{
+    float: left;
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+ul a{
+    margin-left: 10px;
+}
+ul{
+    margin-left: 70%;
+    margin-top: 5px;
+}
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid white;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: yellow;
+}
+.main-content {
+    padding: 50px 20px;
+    color: white;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.project-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.project-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.project-screenshot {
+    flex: 1;
+    text-align: center;
+}
+
+.project-screenshot img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.radiance{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+.radiance:hover{
+    background-color: brown;
+}
+.back{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.back:hover{
+    font-size: large;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #0077b5; /* Change color on hover */
+}
+
+/* -------------------Resume Page---------------------------*/
+/* Basic reset */
