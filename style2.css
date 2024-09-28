@@ -1,0 +1,147 @@
+/* Project Page css code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.navbar{
+    padding: 20px;
+    position:sticky;
+}
+.navbar div{
+    float: left;
+    color: #000;
+    margin-left: 50px;
+    cursor: pointer;
+}
+ul a{
+    margin-left: 10px;
+}
+ul{
+    margin-left: 70%;
+    margin-top: 5px;
+}
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid #000;
+    color: #000;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: red;
+}
+.project-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.project-info h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.project-image img {
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.radiance{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+.radiance:hover{
+    background-color: brown;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+    color: #000;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #0077b5; /* Change color on hover */
+}
+.back{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.back:hover{
+    font-size: large;
+}
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project-info {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-image img {
+        max-width: 100%;
+    }
+}
