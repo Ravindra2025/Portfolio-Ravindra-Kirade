@@ -1,0 +1,130 @@
+/*index page css code*/
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   }
+   .navbar{
+         padding: 20px;
+}
+.navbar div{
+float: left;
+color: white;
+margin-left: 50px;
+cursor: pointer;
+}
+ul a{
+margin-left: 10px;
+}
+ul{
+margin-left: 70%;
+margin-top: 5px;
+}
+.btn1{
+width: 100px;
+height: 30px;
+background-color: transparent;
+border: none;
+border-left: 2px solid white;
+color: white;
+font-size: medium;
+cursor: pointer;
+}
+.btn1:hover{
+color: yellow;
+}
+.container {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px 0;
+}
+
+.profile-pic {
+   flex: 1;
+   text-align: center;
+}
+
+.profile-pic img {
+   border-radius: 50%;
+   width: 250px;
+   height: 250px;
+   object-fit: cover;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+   flex: 2;
+   padding: 20px;
+}
+
+.intro h2 {
+   font-size: 36px;
+   margin-bottom: 10px;
+}
+
+.intro p {
+   font-size: 18px;
+   line-height: 30px;
+   letter-spacing: 1px;
+   margin-bottom: 20px;
+}
+
+.buttons {
+   display: flex;
+   gap: 20px;
+}
+.buttons a {
+   padding: 10px 20px;
+   background-color: #333;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+.buttons a:hover {
+   background-color: #555;
+}
+.line{
+border: 1px inset gray;
+}
+@media screen and (max-width: 768px) {
+   .container {
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .intro {
+       padding: 0;
+   }
+
+   .buttons {
+       justify-content: center;
+   }
+}
+footer {
+padding: 20px;
+text-align: center;
+}
+.contact-info p {
+margin: 5px 0;
+font-size: 16px;
+color: white;
+}
+.social-icons {
+margin-top: 10px;
+}
+.social-icons a {
+text-decoration: none;
+margin: 0 10px;
+font-size: 30px;
+color: #fff;
+transition: transform 0.3s;
+}
+.social-icons a:hover {
+transform: scale(1.2);
+color: #0077b5; /* Change color on hover */
+}
